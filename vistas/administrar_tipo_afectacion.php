@@ -98,7 +98,7 @@
 
                                     <div class="col-9 mb-2">
                                         <label class="mb-0 ml-1 text-sm my-text-color"><i class="fas fa-align-left mr-1 my-text-color"></i>Descripción</label>
-                                        <input type="text" placeholder="Ingrese la descripción" maxlength="4" style="border-radius: 20px;" class="form-control form-control-sm " id="descripcion" name="descripcion" aria-label="Small" aria-describedby="inputGroup-sizing-sm" required>
+                                        <input type="text" placeholder="Ingrese la descripción" maxlength="149" style="border-radius: 20px;" class="form-control form-control-sm " id="descripcion" name="descripcion" aria-label="Small" aria-describedby="inputGroup-sizing-sm" required>
                                         <div class="invalid-feedback">Ingrese la descripción</div>
                                     </div>
 

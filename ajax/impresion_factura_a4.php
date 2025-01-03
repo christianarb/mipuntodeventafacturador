@@ -11733,7 +11733,7 @@
 <body>
 
     <?php
-    $nombreImagen = "https://tutorialesphperu.com/pos/vistas/assets/dist/img/logos_empresas/" . $venta["logo"];
+    $nombreImagen = "http://localhost:8000/vistas/assets/dist/img/logos_empresas/" . $venta["logo"];
     $imagenBase64 = "data:image/png;base64," . base64_encode(file_get_contents($nombreImagen));
     ?>
 

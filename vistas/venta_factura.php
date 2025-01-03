@@ -1597,7 +1597,7 @@ MODAL CUOTAS DEL CREDITO
                         })
                     }
 
-                    // window.open('https://tutorialesphperu.com/pos///vistas/generar_ticket.php?id_venta=' +
+                    // window.open('http://localhost:8000///vistas/generar_ticket.php?id_venta=' +
                     //     response["id_venta"],
                     //     "ModalPopUp",
                     //     "toolbar=no," +
@@ -1611,7 +1611,7 @@ MODAL CUOTAS DEL CREDITO
                     //     "left = 450," +
                     //     "top=200");
 
-                    window.open('https://tutorialesphperu.com/pos/vistas/generar_factura_a4.php?id_venta=' + response["id_venta"],
+                    window.open('http://localhost:8000/vistas/generar_factura_a4.php?id_venta=' + response["id_venta"],
                         'fullscreen=yes' +
                         "resizable=0,"
                     );
@@ -1878,7 +1878,7 @@ MODAL CUOTAS DEL CREDITO
     }
 
     function fnc_ImprimirFactura($id_venta) {
-        window.open('https://tutorialesphperu.com/pos///vistas/generar_ticket.php?id_venta=' + $id_venta,
+        window.open('http://localhost:8000///vistas/generar_ticket.php?id_venta=' + $id_venta,
             "ModalPopUp",
             "toolbar=no," +
             "scrollbars=no," +
@@ -2180,7 +2180,7 @@ MODAL CUOTAS DEL CREDITO
                     })
                 }
 
-                // window.open('https://tutorialesphperu.com/pos/vistas/generar_ticket.php?id_venta=' +
+                // window.open('http://localhost:8000/vistas/generar_ticket.php?id_venta=' +
                 //     response["id_venta"],
                 //     "ModalPopUp",
                 //     "toolbar=no," +
@@ -2194,7 +2194,7 @@ MODAL CUOTAS DEL CREDITO
                 //     "left = 450," +
                 //     "top=200");
 
-                window.open('https://tutorialesphperu.com/pos/vistas/generar_factura_a4.php?id_venta=' + response["id_venta"],
+                window.open('http://localhost:8000/vistas/generar_factura_a4.php?id_venta=' + response["id_venta"],
                     'fullscreen=yes' +
                     "resizable=0,"
                 );
