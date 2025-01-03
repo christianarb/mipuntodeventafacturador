@@ -1026,7 +1026,7 @@ if (isset($_GET["accion"])) {
 
             //NOMBRE DE LA EMPRESA
             $pdf->SetFont('Arial', 'B', 12);
-            $pdf->Cell(60, 10, 'TUTORIALES PHPERU', 0, 0, 'C');
+            $pdf->Cell(60, 10, 'VENTAS', 0, 0, 'C');
 
             //LOGO
             $pdf->Image('../vistas/assets/dist/img/logos_empresas/' . $venta["logo"] ?? 'mi_logo_tutorialesphperu.png', 30, 18, 20, 20, 'PNG');

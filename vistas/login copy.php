@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MAGA Y TITO | Login</title>
+    <title>VENTAS | Login</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -25,7 +25,7 @@
 
             <div class="card-header text-center">
 
-                <h2 class="h2"><b>TUTORIALES PHPERU</b></h2>
+                <h2 class="h2"><b>VENTAS</b></h2>
 
             </div><!-- /.card-header -->
 
