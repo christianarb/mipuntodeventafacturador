@@ -12,8 +12,11 @@ if (isset($_POST["accion"])) {
             if (isset($_POST["usuario"])) {
 
                 $usuario = $_POST["usuario"];
-                $password = crypt($_POST["password"], '$2a$07$azybxcags23425sdg23sdfhsd$');
+                #$password = crypt($_POST["password"], '$2a$07$azybxcags23425sdg23sdfhsd$');
+                $password = $_POST["password"];
 
+                
+              
                 $response = UsuarioModelo::mdlIniciarSesion($usuario, $password);
                 
                 echo json_encode($response);
